@@ -1,0 +1,23 @@
+#btn-carrinho{
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#btn-carrinho .glyphicon{
+  font-size: 18px;
+}
+
+#nav-header{
+  background: #daaf00;
+  border: 0;
+}
+
+#nav-header .navbar-header{
+  background: #ffcd00;
+}
+
+.navbar-collapse{
+  border-top: 0;
+}

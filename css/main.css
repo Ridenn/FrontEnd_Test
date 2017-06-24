@@ -21,3 +21,25 @@
 .navbar-collapse{
   border-top: 0;
 }
+
+
+.nav > li{
+  background-color: #c49d00;
+  margin-bottom: 2px;
+}
+
+.logo{
+  height: 100%;
+}
+
+.navbar-brand{
+  padding: 6px 10px;
+}
+
+#subtotal{
+  border-bottom: 1px solid;
+}
+
+#footer-carrinho p{
+  text-align: right;
+}

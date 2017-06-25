@@ -92,7 +92,7 @@
 .fundo-itens li{
   list-style: none;
   background-color: #fff;
-  margin: 20px 5px 15px 5px;
+  margin: 15px 5px 15px 5px;
   border-radius: 5px;
   padding: 15px;
 }
@@ -146,7 +146,6 @@ i {
     -webkit-transform: rotate(-45deg);
 }
 
-<<<<<<< HEAD
 .parcelas-item{
   font-size: 20px;
   color: #22b14c;
@@ -170,16 +169,16 @@ i {
   width: 50%;
 }
 
-@media screen and (max-width: 706px) {
-  .preco-text, .button-carrinho{
-    width: 100%;
-  }
-=======
 .media-body button.remover-item{
   opacity: 1;
   background-color: transparent;
   padding: 0;
   color: #000;
   text-shadow: none;
->>>>>>> 72516dce671150467d618aa849ff1cc30af8b172
+}
+
+@media screen and (max-width: 706px) {
+  .preco-text, .button-carrinho{
+    width: 100%;
+  }
 }

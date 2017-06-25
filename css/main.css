@@ -12,6 +12,7 @@
 #nav-header{
   background: #daaf00;
   border: 0;
+  margin-bottom: 0;
 }
 
 #nav-header .navbar-header{
@@ -42,4 +43,51 @@
 
 #footer-carrinho p{
   text-align: right;
+}
+
+.fundo-itens{
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3f3;
+  position: absolute;
+}
+
+.fundo-itens li{
+  list-style: none;
+  background-color: #fff;
+  margin: 20px 5px 15px 5px;
+}
+
+.media-heading{
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+
+.media-object{
+  max-height: 200px;
+}
+
+.media-body button{
+  background-color: #22b14c;
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  max-width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }

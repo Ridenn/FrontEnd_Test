@@ -53,4 +53,19 @@ $(document).ready(function(){
     }
     $("#").html();
   });
+
+  $('#list-images-refrig li').click(function() {
+    var j = $(this).find(".media-object").attr('src');
+    $('.refrig-img').attr('src', j);
+  });
+
+  $('#list-images-iphone li').click(function() {
+    var j = $(this).find(".media-object").attr('src');
+    $('.iphone-img').attr('src', j);
+  });
+
+  $('#list-images-tv li').click(function() {
+    var j = $(this).find(".media-object").attr('src');
+    $('.tv-img').attr('src', j);
+  });
 });

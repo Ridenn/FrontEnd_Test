@@ -53,14 +53,21 @@
   position: absolute;
 }
 
+.fundo-itens ul{
+  padding: 0;
+}
+
 .fundo-itens li{
   list-style: none;
   background-color: #fff;
   margin: 20px 5px 15px 5px;
+  border-radius: 5px;
+  padding: 15px;
 }
 
 .media-heading{
   border-bottom: 1px solid;
+  border-bottom-color: #e6e6e6;
   padding-bottom: 10px;
 }
 
@@ -105,4 +112,33 @@ i {
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+
+.parcelas-item{
+  font-size: 20px;
+  color: #22b14c;
+  font-weight: bold;
+  margin-bottom: auto;
+}
+
+.destak-text{
+  font-size: 25px;
+}
+
+.preco-item{
+  font-size: 13px;
+}
+
+.destak-text-preco{
+  color: #22b14c;
+}
+
+.preco-text, .button-carrinho{
+  width: 50%;
+}
+
+@media screen and (max-width: 706px) {
+  .preco-text, .button-carrinho{
+    width: 100%;
+  }
 }

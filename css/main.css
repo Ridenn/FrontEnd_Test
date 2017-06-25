@@ -38,12 +38,44 @@
   padding: 6px 10px;
 }
 
+.navbar-nav .media-object{
+  max-height: 75px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .media-object{
+    max-height: 90px;
+  }
+}
+
+.navbar-nav .media-heading{
+  color: #fff;
+  padding-bottom: 7px;
+  border-bottom: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  height: 42px;
+}
+
+.navbar-nav .media-body p{
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #000;
+}
+
 #subtotal{
   border-bottom: 1px solid;
+  margin-bottom: 5px;
+}
+#footer-carrinho{
+    margin-bottom: 10px;
 }
 
 #footer-carrinho p{
   text-align: right;
+  color: #000;
+  margin: 0;
+  font-size: 12px;
 }
 
 .fundo-itens{
@@ -114,6 +146,7 @@ i {
     -webkit-transform: rotate(-45deg);
 }
 
+<<<<<<< HEAD
 .parcelas-item{
   font-size: 20px;
   color: #22b14c;
@@ -141,4 +174,12 @@ i {
   .preco-text, .button-carrinho{
     width: 100%;
   }
+=======
+.media-body button.remover-item{
+  opacity: 1;
+  background-color: transparent;
+  padding: 0;
+  color: #000;
+  text-shadow: none;
+>>>>>>> 72516dce671150467d618aa849ff1cc30af8b172
 }

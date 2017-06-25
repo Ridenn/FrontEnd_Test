@@ -13,6 +13,7 @@
   background: #daaf00;
   border: 0;
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 #nav-header .navbar-header{
@@ -79,7 +80,6 @@
 }
 
 .fundo-itens{
-  height: 100%;
   width: 100%;
   background-color: #f3f3f3;
   position: absolute;

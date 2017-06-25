@@ -27,6 +27,7 @@
 .nav > li{
   background-color: #c49d00;
   margin-bottom: 2px;
+  padding: 5px 10px;
 }
 
 .logo{
@@ -64,7 +65,7 @@
 }
 
 .media-object{
-  max-height: 200px;
+  max-height: 130px;
 }
 
 .media-body button{
@@ -78,6 +79,20 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.media-left{
+  padding-left: 0;
+}
+
+.media-left a{
+  padding: 0;
+  margin: 0;
+}
+
+.thumbnail{
+  border-color: #000;
+  border-radius: 0;
 }
 
 i {

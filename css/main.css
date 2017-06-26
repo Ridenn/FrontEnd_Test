@@ -81,6 +81,8 @@
 
 .fundo-itens{
   width: 100%;
+  height: 100%;
+  padding-top: 50px;
   background-color: #f3f3f3;
   position: absolute;
 }
@@ -175,6 +177,84 @@ i {
   padding: 0;
   color: #000;
   text-shadow: none;
+}
+
+.imagens-laterais{
+  width: 10%;
+}
+
+#list-images-refrig{
+  max-height: 130px;
+}
+
+#list-images-refrig .media-object{
+  max-height: 24px;
+  margin: auto;
+}
+
+#list-images-refrig li{
+  cursor: pointer;
+  padding: 2.5px 0;
+  margin: 2px;
+  border: 1px solid;
+  border-color: #f2f2f2;
+  border-radius: 3px;
+}
+
+#list-images-refrig li:hover{
+  border-color: #f9d74b;
+}
+
+#list-images-iphone{
+  max-height: 130px;
+}
+
+#list-images-iphone .media-object{
+  max-height: 24px;
+  margin: auto;
+}
+
+#list-images-iphone li{
+  cursor: pointer;
+  padding: 2.5px 0;
+  margin: 2px;
+  border: 1px solid;
+  border-color: #f2f2f2;
+  border-radius: 3px;
+}
+
+#list-images-iphone li:hover{
+  border-color: #f9d74b;
+}
+
+#list-images-tv{
+  max-height: 130px;
+}
+
+#list-images-tv .media-object{
+  max-height: 24px;
+  margin: auto;
+}
+
+#list-images-tv li{
+  cursor: pointer;
+  padding: 2.5px 0;
+  margin: 2px;
+  border: 1px solid;
+  border-color: #f2f2f2;
+  border-radius: 3px;
+}
+
+#list-images-tv li:hover{
+  border-color: #f9d74b;
+}
+
+.melhor-preco img{
+  height: 20px;
+}
+
+.fa-heart-o{
+  color: #ffcd00;
 }
 
 @media screen and (max-width: 706px) {

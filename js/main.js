@@ -98,11 +98,18 @@ $(document).ready(function(){
     atualizaLista();
   });
 
+  $('#list-images-refrig li').click(function() {
+    var j = $(this).find(".media-object").attr('src');
+    $('.refrig-img').attr('src', j);
+  });
 
-});
+  $('#list-images-iphone li').click(function() {
+    var j = $(this).find(".media-object").attr('src');
+    $('.iphone-img').attr('src', j);
+  });
 
-$(document).on("click", ".remover-item", function(){
-  var item = $(this).parents("li").attr("id").replace("item-", "").split("-");
-  carrinho.remove(item[0], item[1]);
-  atualizaLista();
+  $('#list-images-tv li').click(function() {
+    var j = $(this).find(".media-object").attr('src');
+    $('.tv-img').attr('src', j);
+  });
 });

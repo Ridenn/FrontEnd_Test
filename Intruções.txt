@@ -1,0 +1,4 @@
+-=Instruções para rodar o projeto=-
+1 - Abrir com um navegador o arquivo index.html;
+2 - Aguardar a página ser exibida;
+3 - Navegar entre os botões.

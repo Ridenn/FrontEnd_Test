@@ -24,6 +24,10 @@
   border-top: 0;
 }
 
+#bs-example-navbar-collapse-1{
+  padding-right: 5px;
+  padding-left: 5px;
+}
 
 .nav > li{
   background-color: #c49d00;
@@ -56,6 +60,11 @@
   margin-bottom: 0;
   font-size: 16px;
   height: 42px;
+}
+
+.media-body{
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .navbar-nav .media-body p{

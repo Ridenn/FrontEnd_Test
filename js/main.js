@@ -113,3 +113,11 @@ $(document).ready(function(){
     $('.tv-img').attr('src', j);
   });
 });
+
+$(document).on("click", ".remover-item", function(){
+  var item = $(this).parents("li").attr("id").replace("item-", "").split("-");
+  if(confirm("Deseja realmente remover o item do carrinho?")){
+    carrinho.remove(item[0], item[1]);
+  }
+  atualizaLista();
+});
